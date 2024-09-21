@@ -17,6 +17,10 @@ const userSchema = new mongoose.Schema({
         required:true,
         
     },
+    profilePicture:{
+        type: String,
+        default: "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9_719432-1310.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid",
+    },
 },{timestamps:true});
 
 const User = mongoose.model('User',userSchema);
