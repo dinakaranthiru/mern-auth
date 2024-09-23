@@ -17,8 +17,7 @@ export default function About() {
       </p>
       <p className='mb-4 text-slate-700'>
         This application is intended as a starting point for building full-stack
-        web applications with authentication using the MERN stack. Feel free to
-        use it as a template for your own projects!
+        web applications with authentication using the MERN stack. 
       </p>
     </div>
   );
